@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurugyaan - Updating for Better Learning</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0f1116;
+            color: #fff;
+            font-family: "Segoe UI", sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        img {
+            width: 210px;
+            margin-bottom: 25px;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .trust-msg {
+            margin-top: 20px;
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+        .loader {
+            margin: 30px auto;
+            width: 60px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dot {
+            animation: pulse 1.4s infinite both;
+            font-size: 20px;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.4); }
+            100% { opacity: 0.3; transform: scale(1); }
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+        }
+
+        .highlight {
+            color: #47afff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="Logo_icon_text_white.png" alt="Gurugyaan Logo" />
+
+    <div class="title">We're Improving Your Learning Experience 🛠️</div>
+
+    <div class="subtitle">
+        Gurugyaan is temporarily offline for a short maintenance update.<br><br>
+        We’re upgrading performance so that <span class="highlight">teachers teach better</span><br>
+        and <span class="highlight">students learn deeper.</span>
+    </div>
+
+    <div class="trust-msg">
+        📌 <u>Your data, progress and account are safe.</u><br>
+        Thank you for trusting us and being a part of the Gurugyaan learning community.
+    </div>
+
+    <div class="loader">
+        <span class="dot">•</span>
+        <span class="dot">•</span>
+        <span class="dot">•</span>
+    </div>
+
+    <div class="footer">© Gurugyaan | Learning Never Stops 🚀</div>
+</div>
+
+</body>
+</html>
